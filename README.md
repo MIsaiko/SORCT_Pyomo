@@ -1,1 +1,3 @@
 # SORCT_Pyomo
+
+This notebook uses [Pyomo](http://www.pyomo.org/) to implement the sparsity in optimal randomized classification trees model (SORCT) and tests it using [The Iris Dataset](https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html) according to the the paper [Sparsity in optimal randomized classification trees](https://idus.us.es/handle/11441/107840). The SORCT based on oblique cuts proposes a continuous optimization approach for both local and global sparsity, where all decision branches are optimised simultaneously, and has demonstrated a more thorough performance when compared to traditional decision trees like CARTs using the greedy algorithm, which focuses on local sparsity.
